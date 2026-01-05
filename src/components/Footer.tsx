@@ -1,4 +1,5 @@
 import { Phone, Mail, MapPin, Facebook, Instagram, Twitter } from 'lucide-react';
+import LakTravelLogo from '../Images/LAKTravelLogo.png';
 
 interface FooterProps {
   onNavigate: (page: string) => void;
@@ -15,15 +16,18 @@ export default function Footer({ onNavigate }: FooterProps) {
       <div className="container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div>
-            <div className="flex items-center space-x-3 mb-4">
-              <div className="w-12 h-12 bg-gradient-to-br from-amber-400 to-amber-600 rounded-lg flex items-center justify-center">
-                <span className="text-slate-900 font-bold text-xl">LT</span>
-              </div>
-              <div>
-                <h3 className="text-xl font-bold">Lak Travel n Transport</h3>
-                <p className="text-xs text-amber-400">Premium Saudi Travel</p>
-              </div>
-            </div>
+           <div className="flex items-center space-x-3 mb-4">
+  <img
+    src={LakTravelLogo}
+    alt="Lak Travel Logo"
+    className="h-14 w-auto object-contain"
+  />
+  <div>
+    <h3 className="text-xl font-bold">Lak Travel n Transport</h3>
+    <p className="text-xs text-amber-400">Premium Saudi Travel</p>
+  </div>
+</div>
+
             <p className="text-gray-400 leading-relaxed mb-4">
               Your trusted partner for premium transportation and hospitality services across Saudi Arabia's holy cities.
             </p>

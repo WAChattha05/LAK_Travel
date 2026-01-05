@@ -1,4 +1,5 @@
 import { Menu, X, Phone } from 'lucide-react';
+import LakTravelLogo from '../Images/LAKTravelLogo.png';
 import { useState } from 'react';
 
 interface HeaderProps {
@@ -33,13 +34,25 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
             className="flex items-center space-x-3 cursor-pointer"
             onClick={() => handleNavClick('home')}
           >
-            <div className="w-12 h-12 bg-gradient-to-br from-amber-400 to-amber-600 rounded-lg flex items-center justify-center">
-              <span className="text-slate-900 font-bold text-xl">LT</span>
-            </div>
-            <div>
-              <h1 className="text-xl font-bold">Lak Travel n Transport</h1>
-              <p className="text-xs text-amber-400">Premium Saudi Travel</p>
-            </div>
+          <div
+  className="flex items-center space-x-3 cursor-pointer -ml-4"
+  onClick={() => handleNavClick('home')}
+>
+  <img
+    src={LakTravelLogo}
+    alt="Lak Travel Logo"
+    className="h-14 w-auto object-contain"
+  />
+  <div>
+    <h1 className="text-xl font-bold">Lak Travel n Transport</h1>
+    <p className="text-xs text-amber-400">Premium Saudi Travel</p>
+  </div>
+</div>
+
+
+
+
+           
           </div>
 
           <nav className="hidden lg:flex items-center space-x-8">

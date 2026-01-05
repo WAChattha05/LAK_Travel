@@ -1,4 +1,5 @@
 import { Car, Users, Bus, Plane, MapPin, ArrowRight } from 'lucide-react';
+import LuxuryTAXI from '../Images/LuxuryTaxiService.png';
 
 interface ServicesProps {
   onNavigate: (page: string) => void;
@@ -12,7 +13,7 @@ export default function Services({ onNavigate, detailed = false }: ServicesProps
       title: 'Luxury Taxi Service',
       description: 'Premium SUVs and sedans with professional drivers for comfortable point-to-point travel',
       features: ['Mercedes-Benz & BMW fleet', 'Professional chauffeurs', 'Air-conditioned comfort', 'Hourly or daily rates'],
-      image: 'https://images.pexels.com/photos/3849168/pexels-photo-3849168.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: LuxuryTAXI,
     },
     {
       icon: Users,
