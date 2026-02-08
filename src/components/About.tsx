@@ -11,7 +11,7 @@ export default function About({ detailed = false }: AboutProps) {
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-            About <span className="text-amber-500">Lak Travel n Transport</span>
+            About <span className="text-amber-500">Lak Travel & Transport</span>
           </h2>
           <p className="text-xl text-gray-600 leading-relaxed">
             Your trusted partner for premium transportation and hospitality services
@@ -25,7 +25,7 @@ export default function About({ detailed = false }: AboutProps) {
               Dedicated to Serving Pilgrims & Travelers
             </h3>
             <p className="text-lg text-gray-600 leading-relaxed">
-              For over a decade, Lak Travel n Transport has been the premier choice for
+              For over a decade, Lak Travel & Transport has been the premier choice for
               pilgrims and visitors to Saudi Arabia. We understand the sacred journey
               you're undertaking and are committed to making your travel experience
               comfortable, safe, and memorable.

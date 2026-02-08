@@ -23,7 +23,7 @@ export default function Footer({ onNavigate }: FooterProps) {
     className="h-14 w-auto object-contain"
   />
   <div>
-    <h3 className="text-xl font-bold">Lak Travel n Transport</h3>
+    <h3 className="text-xl font-bold">Lak Travel & Transport</h3>
     <p className="text-xs text-amber-400">Premium Saudi Travel</p>
   </div>
 </div>
@@ -96,7 +96,7 @@ export default function Footer({ onNavigate }: FooterProps) {
         <div className="border-t border-slate-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm mb-4 md:mb-0">
-              © {new Date().getFullYear()} Lak Travel n Transport. All rights reserved.
+              © {new Date().getFullYear()} Lak Travel & Transport. All rights reserved.
             </p>
             <div className="flex space-x-6">
               <button onClick={() => handleNavClick('contact')} className="text-gray-400 hover:text-amber-400 text-sm transition-colors">

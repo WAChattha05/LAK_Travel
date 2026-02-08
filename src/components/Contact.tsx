@@ -32,8 +32,8 @@ export default function Contact() {
     {
       icon: Mail,
       title: 'Email',
-      details: ['info@laktransport.sa', 'bookings@laktransport.sa'],
-      link: 'mailto:info@laktransport.sa',
+      details: ['info@laktransport.com', 'bookings@laktransport.com'],
+      link: 'mailto:info@laktransport.com',
     },
     {
       icon: Clock,

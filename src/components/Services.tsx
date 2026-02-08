@@ -1,5 +1,5 @@
 import { Car, Users, Bus, Plane, MapPin, ArrowRight } from 'lucide-react';
-import LuxuryTAXI from '../Images/LuxuryTaxiService.png';
+import LuxuryTAXI from '../Images/LuxuryTaxiService.jpg';
 
 interface ServicesProps {
   onNavigate: (page: string) => void;

@@ -44,7 +44,7 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
     className="h-14 w-auto object-contain"
   />
   <div>
-    <h1 className="text-xl font-bold">Lak Travel n Transport</h1>
+    <h1 className="text-xl font-bold">Lak Travel & Transport</h1>
     <p className="text-xs text-amber-400">Premium Saudi Travel</p>
   </div>
 </div>
