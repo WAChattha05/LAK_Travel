@@ -1,5 +1,5 @@
 import { Menu, X, Phone } from 'lucide-react';
-import LakTravelLogo from '../Images/LAKTravelLogo.png';
+import LakTravelLogo from '../Images/LAKTravelLogo.webp';
 import { useState } from 'react';
 
 interface HeaderProps {

@@ -1,5 +1,5 @@
 import { Shield, Heart, Award, Users } from 'lucide-react';
-import aboutImage from '../Images/About.png';
+import aboutImage from '../Images/About.webp';
 
 interface AboutProps {
   detailed?: boolean;

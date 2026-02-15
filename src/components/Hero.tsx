@@ -1,5 +1,5 @@
 import { Car, Hotel, MessageCircle, ArrowRight } from 'lucide-react';
-import heroBg from '../Images/Hero.png';
+import heroBg from '../Images/Hero.webp';
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';

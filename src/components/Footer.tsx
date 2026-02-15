@@ -1,5 +1,5 @@
 import { Phone, Mail, MapPin, Facebook, Instagram, Twitter } from 'lucide-react';
-import LakTravelLogo from '../Images/LAKTravelLogo.png';
+import LakTravelLogo from '../Images/LAKTravelLogo.webp';
 
 interface FooterProps {
   onNavigate: (page: string) => void;
