@@ -1,5 +1,10 @@
 import { Car, Users, Bus, Plane, MapPin, ArrowRight } from 'lucide-react';
-import LuxuryTAXI from '../Images/LuxuryTaxiService.jpg';
+import LuxuryTAXI from '../Images/LuxuryTaxiService.webp';
+import BigCars from '../Images/BigCars&FamilyVehicles.webp';
+import Coaster from '../Images/Coaster.webp';
+import BusRentals from '../Images/BusRentals.webp';
+import intercity from '../Images/InterCityTravel.webp';
+
 
 interface ServicesProps {
   onNavigate: (page: string) => void;
@@ -20,21 +25,21 @@ export default function Services({ onNavigate, detailed = false }: ServicesProps
       title: 'Big Cars & Family Vehicles',
       description: 'Spacious Toyota Hiace, Hyundai Staria, and GMC for families and groups',
       features: ['7-12 passenger capacity', 'Luggage space', 'Child seats available', 'Group-friendly pricing'],
-      image: 'https://images.pexels.com/photos/2526127/pexels-photo-2526127.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: BigCars,
     },
     {
       icon: Users,
       title: 'Vans & Minibuses',
       description: 'Perfect for medium-sized groups traveling together with comfort and convenience',
       features: ['15-20 passenger vans', 'AC & entertainment', 'Experienced drivers', 'Flexible schedules'],
-      image: 'https://images.pexels.com/photos/1592384/pexels-photo-1592384.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: Coaster,
     },
     {
       icon: Bus,
       title: 'Bus Rentals',
       description: 'Modern 30-50 seater buses for large groups and pilgrimage tours',
       features: ['Luxury coach buses', 'Reclining seats', 'On-board facilities', 'Group tour packages'],
-      image: 'https://images.pexels.com/photos/631986/pexels-photo-631986.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: BusRentals,
     },
     {
       icon: Plane,
@@ -48,7 +53,7 @@ export default function Services({ onNavigate, detailed = false }: ServicesProps
       title: 'Intercity Travel',
       description: 'Comfortable long-distance travel between Makkah, Madinah, Jeddah, and beyond',
       features: ['Direct routes', 'Rest stops included', 'Multiple vehicle options', 'Competitive pricing'],
-      image: 'https://images.pexels.com/photos/3566187/pexels-photo-3566187.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: intercity,
     },
   ];
 

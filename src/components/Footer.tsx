@@ -83,7 +83,7 @@ export default function Footer({ onNavigate }: FooterProps) {
               </li>
               <li className="flex items-start">
                 <Mail className="text-amber-400 mr-3 flex-shrink-0 mt-1" size={18} />
-                <p className="text-gray-400">info@laktransport.sa</p>
+                <p className="text-gray-400">info@laktransport.com</p>
               </li>
               <li className="flex items-start">
                 <MapPin className="text-amber-400 mr-3 flex-shrink-0 mt-1" size={18} />

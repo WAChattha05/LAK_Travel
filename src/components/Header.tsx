@@ -67,10 +67,16 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
                 {item.label}
               </button>
             ))}
-            <a
+            {/* <a
               href="tel:+966501234567"
               className="flex items-center space-x-2 bg-amber-500 hover:bg-amber-600 text-slate-900 px-4 py-2 rounded-lg font-semibold transition-colors"
-            >
+            > */}
+            <a
+               href="https://wa.me/966530727351"
+               target="_blank"
+               rel="noopener noreferrer"
+               className="flex items-center space-x-2 bg-amber-500 hover:bg-amber-600 text-slate-900 px-4 py-2 rounded-lg font-semibold transition-colors"
+>
               <Phone size={16} />
               <span>Call Now</span>
             </a>
