@@ -10,11 +10,42 @@ export default function Contact() {
     message: '',
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    alert('Thank you for contacting us! We will get back to you shortly.');
-    setFormData({ name: '', email: '', phone: '', service: 'transport', message: '' });
-  };
+  // const handleSubmit = (e: React.FormEvent) => {
+  //   e.preventDefault();
+  //   alert('Thank you for contacting us! We will get back to you shortly.');
+  //   setFormData({ name: '', email: '', phone: '', service: 'transport', message: '' });
+  // };
+  const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+
+  try {
+    const res = await fetch("https://laktransport.com/save_contact.php", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formData),
+    });
+
+    const result = await res.json();
+
+    if (result.status === "success") {
+      alert("Thank you for contacting us! We will get back to you shortly.");
+      setFormData({
+        name: '',
+        email: '',
+        phone: '',
+        service: 'transport',
+        message: '',
+      });
+    } else {
+      alert("Something went wrong. Please try again.");
+    }
+  } catch (error) {
+    alert("Server error. Please try later.");
+  }
+};
+
 
   const contactInfo = [
     {
